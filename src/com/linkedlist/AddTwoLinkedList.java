@@ -42,7 +42,7 @@ public class AddTwoLinkedList {
 	        {
 	            // Calculate value of next digit in resultant list.
 	            // The next digit is sum of following things
-	            // (i)  Carry
+	            // (i)  Carryj
 	            // (ii) Next digit of first list (if there is a next digit)
 	            // (ii) Next digit of second list (if there is a next digit)
 	            sum = carry + (first != null ? first.data : 0)
