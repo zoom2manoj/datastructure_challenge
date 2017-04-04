@@ -3,6 +3,14 @@ package com.linkedlist;
 
 public class AddTwoLinkedListInReverseOrder {
 
+	
+/*	Input:
+		  First List: 5->6->3  // represents number 563
+		  Second List: 8->4->2 //  represents number 842
+		Output
+		  Resultant list: 1->4->0->5  // represents number 1405
+*/		  
+		  
 	 static Node head1, head2;
 	 
 	static class Node{
