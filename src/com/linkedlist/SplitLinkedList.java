@@ -3,6 +3,13 @@ package com.linkedlist;
 
 public class SplitLinkedList {
 
+	/*
+	Original Circular Linked List
+	11 2 56 12 
+	First Circular Linked List
+	11 2 
+	Second Circular Linked List
+	56 12 */
 	
     static Node head, head1, head2;
 	 
