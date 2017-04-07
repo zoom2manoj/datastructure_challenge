@@ -7,7 +7,8 @@ public class MaximumLevelSum {
 	
 
 	
-	/*Input :               4
+	/*
+Input :               4
                     /   \
                    2    -5
                   / \    /\
@@ -26,7 +27,8 @@ Input :          1
           4    5      8
                     /   \
                    6     7  
-Output :  17*/
+Output :  17
+*/
 	
 	public static class Node{
 		
@@ -82,7 +84,7 @@ Output :  17*/
 	}
 
 
-	private  void maxLevelSum() {
+	private  int maxLevelSum() {
 		// TODO Auto-generated method stub
 	
 		
@@ -90,7 +92,7 @@ Output :  17*/
 		
 		if (root == null) {
 			System.out.println("Tree is empty");
-			return;
+			return 0;
 		}
 		Queue queue = new LinkedList();
 		queue.offer(root);
@@ -133,7 +135,7 @@ Output :  17*/
 			System.out.println(" ");
 		}
 		System.out.println("Max Sum = " + maxSum + " is at Level = " + level);
-		
+		return maxSum;
 	}
 	
 
