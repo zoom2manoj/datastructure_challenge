@@ -8,6 +8,23 @@ public class Anagram {
 	public static void main(String[] arg){
 		
 		
+		/*
+		 * input
+		 *  pear  
+amleth
+dormitory
+tinsel
+dirty room
+hamlet
+listen
+silnet
+... the output would be:
+
+amleth,hamlet
+dirty room,dormitory
+listen,silnet,tinsel
+pear*/
+		
 		Scanner scn = new Scanner(System.in);
 		
 		int size = scn.nextInt();

@@ -13,6 +13,22 @@ public class Polygon{
 	static final int O =3;
 	
 	
+	/*
+	 * 
+	Input : 
+	
+	36 30 36 30
+15 15 15 15
+46 96 90 100
+86 86 86 86
+100 200 100 200
+-100 200 -100 200
+
+	Sample Output: 
+	2 2 2
+	*/
+	
+	
 	public static void main(String[] args){
 		
 		Scanner scn = new Scanner(System.in);
