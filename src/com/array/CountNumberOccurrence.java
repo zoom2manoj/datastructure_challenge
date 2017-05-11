@@ -29,8 +29,7 @@ public class CountNumberOccurrence {
 	}
 	
 	public int first(int[] array, int low, int high, int x, int n){
-		
-		
+				
 		if(high>=low){
 			
 			int mid = (high+low)/2;
