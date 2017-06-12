@@ -1,21 +1,22 @@
 Data Structure & Algorithm, Problem solving in Java
-Find maximum level sum in Binary Tree
 
-Split a Circular Linked List into two halves
+1. Find maximum level sum in Binary Tree
 
-Rotate a Linked List
+2. Split a Circular Linked List into two halves
 
-Add two linked list in reverse order
+3. Rotate a Linked List
 
-Add two Linkedlist
+4. Add two linked list in reverse order
 
-occurence count
+5. Add two Linkedlist
 
-Root to leaf paths having equal lengths in a Binary Tree
+6. occurence count
+
+7. Root to leaf paths having equal lengths in a Binary Tree
 
 ++ Short Algorithm
-Delta Encoding
-Polygon check
-Sum Array
-Anagram
+1. Delta Encoding
+2. Polygon check
+3. Sum Array
+4. Anagram
 Currently, process is going on, will update soon.
