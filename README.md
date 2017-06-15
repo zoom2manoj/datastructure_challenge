@@ -17,6 +17,7 @@ Data Structure & Algorithm, Problem solving in Java
 
 Graph : 
 1. DFS (Iterative & Recursive)
+2. BFS
 
 ++ Short Algorithm
 1. Delta Encoding
