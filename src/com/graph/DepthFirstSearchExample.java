@@ -5,6 +5,8 @@ import java.util.Stack;
 
 public class DepthFirstSearchExample {
 	
+	//Using custom collection instance of Stack and array 
+	
 	
 	// DFS link 
 	//http://www.java2blog.com/wp-content/uploads/2015/12/Screen2BShot2B2015-12-272Bat2B11.19.482Bpm.png
