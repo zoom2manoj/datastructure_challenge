@@ -25,11 +25,15 @@ Graph :
 3. Sum Array
 4. Anagram
 
-Design Patterns: 
-Creational Design Patternn:
+Design Patterns:
+
+Creational Design Pattern:
  1. Singleton Pattern 
  2. Factory Pattern
  3. Builder Pattern
  4. Prototype Pattern
+ 
+ Structural Design Pattern:
+ 1. Adapter Design Pattern
  
 Currently, process is going on, will update soon.
