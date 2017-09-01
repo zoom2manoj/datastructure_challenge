@@ -1,4 +1,4 @@
-package com.design_pattern.builder;
+package com.design_pattern.creational.builder;
 
 public class BuilderPattern {
 

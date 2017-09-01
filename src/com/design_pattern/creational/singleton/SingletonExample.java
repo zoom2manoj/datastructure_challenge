@@ -1,4 +1,4 @@
-package com.design_pattern.singleton;
+package com.design_pattern.creational.singleton;
 
 public class SingletonExample {
 
