@@ -24,4 +24,12 @@ Graph :
 2. Polygon check
 3. Sum Array
 4. Anagram
+
+Design Patterns: 
+Creational Design Patternn:
+ 1. Singleton Pattern 
+ 2. Factory Pattern
+ 3. Builder Pattern
+ 4. Prototype Pattern
+ 
 Currently, process is going on, will update soon.
