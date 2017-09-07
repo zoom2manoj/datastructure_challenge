@@ -37,6 +37,7 @@ Creational Design Pattern:
  1. Adapter Design Pattern
  2. Composition Design Pattern
  3. Proxy Design Pattern
+ 4. Flyweight Design Pattern
  
  
 Currently, process is going on, will update soon.
