@@ -38,6 +38,7 @@ Creational Design Pattern:
  2. Composition Design Pattern
  3. Proxy Design Pattern
  4. Flyweight Design Pattern
+ 5. Bridge Design Pattern
  
  
 Currently, process is going on, will update soon.
