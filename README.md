@@ -42,5 +42,8 @@ Creational Design Pattern:
  6. Facade Design Pattern
  7. Decorator Design Pattern
  
+ Behavioral Design Pattern:
+ 1. Mediator Design Pattern
+ 
  
 Currently, process is going on, will update soon.
