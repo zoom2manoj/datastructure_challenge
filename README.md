@@ -10,7 +10,7 @@ Data Structure & Algorithm, Problem solving in Java
 
 5. Add two Linkedlist
 
-6. occurence count
+6. Occurence count
 
 7. Root to leaf paths having equal lengths in a Binary Tree
 
@@ -33,7 +33,7 @@ Creational Design Pattern:
  3. Builder Pattern
  4. Prototype Pattern
  
- Structural Design Pattern:
+Structural Design Pattern:
  1. Adapter Design Pattern
  2. Composition Design Pattern
  3. Proxy Design Pattern
@@ -42,8 +42,10 @@ Creational Design Pattern:
  6. Facade Design Pattern
  7. Decorator Design Pattern
  
- Behavioral Design Pattern:
+Behavioral Design Pattern:
  1. Mediator Design Pattern
+ 2. Chain of responsibility Design Pattern
+ 
  
  
 Currently, process is going on, will update soon.
