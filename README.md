@@ -39,7 +39,8 @@ Creational Design Pattern:
  3. Proxy Design Pattern
  4. Flyweight Design Pattern
  5. Bridge Design Pattern
- 6. Decorator Design Pattern
+ 6. Facade Design Pattern
+ 7. Decorator Design Pattern
  
  
 Currently, process is going on, will update soon.
