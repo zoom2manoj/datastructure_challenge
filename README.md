@@ -47,6 +47,7 @@ Behavioral Design Pattern:
  2. Chain of responsibility Design Pattern
  3. Observer Design Pattern
  4. State Design Pattern
+ 5. Visitor Design Pattern
  
  
  
