@@ -25,7 +25,6 @@ public class ObserverPatternTest {
 		
 		//now send message to subject
 		topic.postMessage("New Message");
-		topic.postMessage("New Message 1");
-		
+		topic.postMessage("New Message 1");		
 	}
 }
