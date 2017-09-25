@@ -10,24 +10,36 @@ public class ArrayRotation {
 	
 	public void leftRotated(int[] arr, int d, int n){
 	
-		for (int j = 0; j < d; j++) {
-			leftRotatedByOne(arr, n);
+		int i, j, k, temp;
+		for (i = 0; i < gcd(d, n); i++) {
+			temp = arr[i];
+			j = i;
+			while (1!=0) {
+				k =j+d;
+				if (k>=n) {
+					k = k-n;
+				}
+				
+				if (k==i) {
+					break;
+				}
+				arr[j] = arr[k];
+				
+				j=k;
+			}
+			arr[j] = temp;
 		}
-	}
-
-	private void leftRotatedByOne(int arr[], int n) {
-		int j, temp;
-		temp = arr[0];
-		for (j = 0; j < n-1; j++) {
-			arr[j] = arr[j+1];
-		}
-		arr[j] = temp;
-	}
+	
+	}	
 	
 	public void printArray(int arr[]){
 		for (int i = 0; i < arr.length; i++) {
 			System.out.println(arr[i]);
 		}
+	}
+	
+	public int gcd(int a, int b){
+		return (b==0)?a : gcd(b, a%b);		
 	}
 
 	public static void main(String[] arr){
