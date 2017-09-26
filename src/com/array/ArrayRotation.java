@@ -28,8 +28,7 @@ public class ArrayRotation {
 				j=k;
 			}
 			arr[j] = temp;
-		}
-	
+		}	
 	}	
 	
 	public void printArray(int arr[]){
