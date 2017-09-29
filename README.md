@@ -17,6 +17,7 @@ Data Structure & Algorithm, Problem solving in Java
 Array : 
 1. Lower Element from sorted and rotated Array.
 2. Find maximum value of Sum( i*arr[i]) with only rotations on given array allowed.
+3. Maximum sum of i*arr[i] among all rotations of a given array.
 
 
 Graph : 
