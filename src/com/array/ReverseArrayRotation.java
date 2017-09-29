@@ -1,6 +1,14 @@
 package com.array;
 
 public class ReverseArrayRotation {
+
+	/*
+	 input : {1,2,3,4,5,6,7,8,9,10}
+	 
+	 
+     output : {3,4,5,6,7,8,9,10,1,2}
+	
+	*/
 	public static void main(String[] arg){
 			ReverseArrayRotation rar = new ReverseArrayRotation();
 			int[] arr = {1,2,3,4,5,6,7,8,9,10};

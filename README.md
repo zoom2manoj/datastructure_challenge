@@ -14,6 +14,9 @@ Data Structure & Algorithm, Problem solving in Java
 
 7. Root to leaf paths having equal lengths in a Binary Tree
 
+Array : 
+1. Lower Element from sorted and rotated Array;
+
 
 Graph : 
 1. DFS (Iterative & Recursive)
