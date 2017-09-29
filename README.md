@@ -15,7 +15,8 @@ Data Structure & Algorithm, Problem solving in Java
 7. Root to leaf paths having equal lengths in a Binary Tree
 
 Array : 
-1. Lower Element from sorted and rotated Array;
+1. Lower Element from sorted and rotated Array.
+2. Find maximum value of Sum( i*arr[i]) with only rotations on given array allowed.
 
 
 Graph : 
