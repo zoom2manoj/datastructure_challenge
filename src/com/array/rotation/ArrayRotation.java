@@ -1,4 +1,4 @@
-package com.array;
+package com.array.rotation;
 
 public class ArrayRotation {
 	
@@ -6,6 +6,10 @@ public class ArrayRotation {
 	 * Let us take the same example arr[] = [1, 2, 3, 4, 5, 6, 7], d = 2
        Rotate arr[] by one 2 times
        We get [2, 3, 4, 5, 6, 7, 1] after first rotation and [ 3, 4, 5, 6, 7, 1, 2] after second rotation.
+       
+       
+Time complexity: O(n)
+Auxiliary Space: O(1)
 */
 	
 	public void leftRotated(int[] arr, int d, int n){

@@ -1,4 +1,4 @@
-package com.array;
+package com.array.rotation;
 
 import java.util.Arrays;
 
@@ -13,6 +13,9 @@ public class CyclicallyRotateArray {
 	
 	Input:  arr[] = {1, 2, 3, 4, 5}
     Output: arr[] = {5, 1, 2, 3, 4}
+    
+    Time Complexity: O(n)
+Auxiliary Space: O(1)
 	*/
 	
 	static int[] array = {1, 2, 3, 4, 5, 6};

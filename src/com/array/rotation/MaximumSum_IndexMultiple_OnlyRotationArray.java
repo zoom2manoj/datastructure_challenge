@@ -1,4 +1,4 @@
-package com.array;
+package com.array.rotation;
 
 public class MaximumSum_IndexMultiple_OnlyRotationArray {
 	

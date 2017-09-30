@@ -1,7 +1,16 @@
-package com.array;
+package com.array.rotation;
 
 public class PairSumSortedArray_Temp {
 
+	
+	/*
+	this is only sorted array.
+	Given a sorted and rotated array, find if there is a pair with a given sum
+	
+	*/
+	
+	
+	
 	public static void main(String[] arg){
 		int[] array = {11, 15, 6, 8, 9, 10};
 		

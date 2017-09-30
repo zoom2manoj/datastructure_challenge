@@ -1,4 +1,4 @@
-package com.array;
+package com.array.rotation;
 
 public class SearchElementFromSortedAndPivotArray {
 
@@ -16,6 +16,8 @@ Output : Not found
 Input : arr[] = {30, 40, 50, 10, 20}
         key = 10   
 Output : Found at index 3
+
+Tiem complexity : O(logn)
 	
 	
 	*/

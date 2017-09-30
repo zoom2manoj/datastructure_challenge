@@ -14,12 +14,17 @@ Data Structure & Algorithm, Problem solving in Java
 
 7. Root to leaf paths having equal lengths in a Binary Tree
 
-Array : 
-1. Lower Element from sorted and rotated Array.
-2. Find maximum value of Sum( i*arr[i]) with only rotations on given array allowed.
-3. Maximum sum of i*arr[i] among all rotations of a given array.
-4. Find the Rotation Count in Rotated Sorted array
-5. Quickly find multiple left rotations of an array.
+Array Rotations: 
+1. Array Rotation(A Juggling Algorithm).
+2. Reverse Array Rotation.
+3. Cyclic Array Rotation.
+4. Search an element in a sorted and rotated array.
+5. Given a sorted and rotated array, find if there is a pair with a given sum.
+6. Lower Element from sorted and rotated Array.
+7. Find maximum value of Sum( i*arr[i]) with only rotations on given array allowed.
+8. Maximum sum of i*arr[i] among all rotations of a given array.
+9. Find the Rotation Count in Rotated Sorted array
+10. Quickly find multiple left rotations of an array.
 
 
 Graph : 
