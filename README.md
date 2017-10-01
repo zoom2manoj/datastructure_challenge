@@ -37,6 +37,11 @@ Graph :
 3. Sum Array
 4. Anagram
 
+
+Sorting Algorithms : 
+
+1. Bubble Sorting
+
 Design Patterns:
 
 Creational Design Pattern:
