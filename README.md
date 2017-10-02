@@ -41,6 +41,7 @@ Graph :
 Sorting Algorithms : 
 
 1. Bubble Sorting
+2. Selection Sorting
 
 Design Patterns:
 
