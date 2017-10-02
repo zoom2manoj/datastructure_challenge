@@ -3,6 +3,18 @@ package com.array.rearrangement;
 public class ReverseArray {
 	
 	
+	/*
+	
+	Time Complexity: O(n)
+
+Input  : arr[] = {1, 2, 3}
+Output : arr[] = {3, 2, 1}
+
+Input :  arr[] = {4, 5, 1, 2}
+Output : arr[] = {2, 1, 5, 4}
+	
+	*/
+	
 	public static void main(String[] arg){
         int arr[] = {1, 2, 3, 4, 5, 6};
 
