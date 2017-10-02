@@ -4,7 +4,7 @@ public class BubbleSorting {
 
 	/*
 	
-	worst-case and average complexity both О(n2).
+Bubble Sort		Ω(n)		 Θ(n^2)			O(n^2)		  O(1)
 	
 	*/
 	
