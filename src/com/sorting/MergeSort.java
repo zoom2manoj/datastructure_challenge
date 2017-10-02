@@ -1,6 +1,15 @@
 package com.sorting;
 
 public class MergeSort {
+	
+	
+	/*
+	
+	
+	Mergesort		Ω(n log(n))	 Θ(n log(n))	O(n log(n))	  O(n)
+
+
+	*/
 
 	private int lenght;
 	private int[] tempArray;
@@ -41,7 +50,6 @@ public class MergeSort {
 			tempArray[i] = array[i];
 		}
 		
-		
 		int i= lowerIndex;
 		int j= middle+1;
 		int k = lowerIndex;
@@ -55,18 +63,13 @@ public class MergeSort {
 				j++;
 			}
 			k++;
-			
 		}
-		
 		
 		while (i<=middle) {
 			array[k] =  tempArray[i];
 			k++;
 			i++;			
 		}
-				
-		
-		
 	}
 
 

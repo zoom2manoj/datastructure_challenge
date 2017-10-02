@@ -31,7 +31,7 @@ Graph :
 1. DFS (Iterative & Recursive)
 2. BFS
 
-++ Short Algorithm
+++ Normal Sort Algorithm
 1. Delta Encoding
 2. Polygon check
 3. Sum Array
@@ -42,6 +42,9 @@ Sorting Algorithms :
 
 1. Bubble Sorting
 2. Selection Sorting
+3. Insertion Sorting
+4. Quick Sorting
+5. Merge Sorting
 
 Design Patterns:
 
