@@ -24,7 +24,11 @@ Array Rotations:
 7. Find maximum value of Sum( i*arr[i]) with only rotations on given array allowed.
 8. Maximum sum of i*arr[i] among all rotations of a given array.
 9. Find the Rotation Count in Rotated Sorted array
-10. Quickly find multiple left rotations of an array.
+10.Quickly find multiple left rotations of an array.
+
+
+Arrangement Rearrangement :
+1. Rearrange positive and negative numbers in O(n) time and O(1) extra space
 
 
 Graph : 
