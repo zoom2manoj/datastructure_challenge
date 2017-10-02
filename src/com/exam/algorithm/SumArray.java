@@ -1,4 +1,4 @@
-package com.algorithm;
+package com.exam.algorithm;
 
 import java.util.HashMap;
 import java.util.Scanner;

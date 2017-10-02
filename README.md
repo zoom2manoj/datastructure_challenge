@@ -45,6 +45,7 @@ Sorting Algorithms :
 3. Insertion Sorting
 4. Quick Sorting
 5. Merge Sorting
+6. Heap Sorting
 
 Design Patterns:
 
