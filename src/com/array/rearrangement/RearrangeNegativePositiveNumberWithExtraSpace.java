@@ -3,10 +3,10 @@ package com.array.rearrangement;
 public class RearrangeNegativePositiveNumberWithExtraSpace {
 
 	/*
-	 * 
-	 * Time complexity of above solution is O(n log n), O(Log n) space for recursive calls
+	  
+	Time complexity of above solution is O(n log n), O(Log n) space for recursive calls
 	Input:  [12 11 -13 -5 6 -7 5 -3 -6]
-Output: [-13 -5 -7 -3 -6 12 11 6 5]
+	Output: [-13 -5 -7 -3 -6 12 11 6 5]
 	
 	Rearrange positive and negative numbers with constant extra space
 	*/
@@ -26,13 +26,14 @@ Output: [-13 -5 -7 -3 -6 12 11 6 5]
 
 	private static void reverseArray(int[] arr, int l, int r) {
 		
+		if(l<r){
 		int mid  =  l+(r-l)/2;
 		
 		reverseArray(arr, 0, mid);
 		reverseArray(arr, mid+1, r);
 		
 		merge(arr, l, mid, r);
-		
+		}
 	}
 
 	private static void merge(int[] arr, int l, int mid, int r) {
