@@ -3,6 +3,19 @@ package com.array.rearrangement;
 public class ThreeWayPartitioningArray {
 	
 	
+	/*
+	
+	
+	Input: arr[] = {1, 14, 5, 20, 4, 2, 54, 20, 87, 98, 3, 1, 32}  
+        lowVal = 14, highVal = 20
+Output: arr[] = {1, 5, 4, 2, 1, 3, 14, 20, 20, 98, 87, 32, 54}
+
+Input: arr[] = {1, 14, 5, 20, 4, 2, 54, 20, 87, 98, 3, 1, 32}  
+       lowVal = 20, highVal = 20       
+Output: arr[] = {1, 14, 5, 4, 2, 1, 3, 20, 20, 98, 87, 32, 54} 
+	
+	*/
+	
 	
 	public static void main(String[] arg){
 	
