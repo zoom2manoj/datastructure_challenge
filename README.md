@@ -33,6 +33,8 @@ Arrangement Rearrangement :
 3. Sort an array in wave form
 4. Rearrange positive and negative numbers with constant extra space
 5. Three way partitioning of an array around a given range
+6. Rearrange an array in maximum minimum form (O(1) extra space)
+7. Maximum Length Bitonic Subarray | Set 1 (O(n) tine and O(n) space)
 
 Graph : 
 1. DFS (Iterative & Recursive)
