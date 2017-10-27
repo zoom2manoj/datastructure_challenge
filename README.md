@@ -36,6 +36,7 @@ Arrangement Rearrangement :
 6. Rearrange an array in maximum minimum form (O(1) extra space)
 7. Maximum Length Bitonic Subarray | Set 1 (O(n) tine and O(n) space)
 8. Segregate 0s and 1s in an array
+9. Segregate Even and Odd numbers
 
 Graph : 
 1. DFS (Iterative & Recursive)

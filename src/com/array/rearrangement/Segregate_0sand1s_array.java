@@ -3,7 +3,7 @@ package com.array.rearrangement;
 public class Segregate_0sand1s_array {
 
 	/*
-	 * 
+	 * Time Complexity: O(n)
 	 * Segregate 0s and 1s in an array
 	 * 
 	Input array   =  [0, 1, 0, 1, 0, 0, 1, 1, 1, 0] 
