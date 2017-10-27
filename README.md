@@ -35,6 +35,7 @@ Arrangement Rearrangement :
 5. Three way partitioning of an array around a given range
 6. Rearrange an array in maximum minimum form (O(1) extra space)
 7. Maximum Length Bitonic Subarray | Set 1 (O(n) tine and O(n) space)
+8. Segregate 0s and 1s in an array
 
 Graph : 
 1. DFS (Iterative & Recursive)
