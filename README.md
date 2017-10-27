@@ -37,6 +37,7 @@ Arrangement Rearrangement :
 7. Maximum Length Bitonic Subarray | Set 1 (O(n) tine and O(n) space)
 8. Segregate 0s and 1s in an array
 9. Segregate Even and Odd numbers
+10.Longest Bitonic Subsequence
 
 Graph : 
 1. DFS (Iterative & Recursive)
