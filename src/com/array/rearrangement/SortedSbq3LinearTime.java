@@ -59,7 +59,7 @@ Auxliary Space: O(n)
 		
 		for (int j = 0; j < greater.length; j++) {
 			if (smaller[j]!=-1&& greater[j]!=-1) {
-				System.out.println(smaller[j]+", "+arr[j]+", "+arr[greater[j]]);
+				System.out.println(arr[smaller[j]]+", "+arr[j]+", "+arr[greater[j]]);
 				return;
 			}
 		}

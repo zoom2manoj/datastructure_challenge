@@ -25,7 +25,10 @@ Array Rotations:
 8. Maximum sum of i*arr[i] among all rotations of a given array.
 9. Find the Rotation Count in Rotated Sorted array
 10.Quickly find multiple left rotations of an array.
-11. Find a sorted subsequence of size 3 in linear time
+11.Find a sorted subsequence of size 3 in linear time
+12.Find a sorted subsequence of size 4 in an array in linear time
+
+
 
 
 Arrangement Rearrangement :
