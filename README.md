@@ -42,6 +42,7 @@ Arrangement Rearrangement :
 8. Segregate 0s and 1s in an array
 9. Segregate Even and Odd numbers
 10.Longest Bitonic Subsequence
+11.Largest subarray with equal number of 0s and 1s
 
 Graph : 
 1. DFS (Iterative & Recursive)
