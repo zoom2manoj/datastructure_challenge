@@ -18,6 +18,9 @@ arr[] = {1, 5, 3}
 Output: false 
 The array cannot be partitioned into equal sum sets.
 	
+	
+	Time Complexity: O(sum*n)
+Auxiliary Space: O(sum*n)
 	*/
 	
  // Returns true if arr[] can be partitioned in two subsets of

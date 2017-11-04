@@ -27,6 +27,7 @@ Array Rotations:
 10.Quickly find multiple left rotations of an array.
 11.Find a sorted subsequence of size 3 in linear time
 12.Find a sorted subsequence of size 4 in an array in linear time
+13.Dynamic Programming | Set 18 (Partition problem)
 
 
 
