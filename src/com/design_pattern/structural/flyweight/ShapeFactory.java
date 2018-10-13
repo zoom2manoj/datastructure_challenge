@@ -21,6 +21,8 @@ public class ShapeFactory {
 			}else if(shapeType.equals(ShapeType.LINE)){
 				shapeImp = new Line();
 			}
+		shapes.put(shapeType	,shapeImp);
+
 		}		
 		return shapeImp;
 	}
