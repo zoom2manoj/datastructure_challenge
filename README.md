@@ -73,6 +73,14 @@ Creational Design Pattern:
  3. Builder Pattern
  4. Prototype Pattern
  
+ Important Points:
+ 1.Factory Pattern:
+   A. We can keep factory class Singleton or we can keep the method that returns the sublcass as static
+   B. Approach to code for interface rather than implementation
+   C. Removes the instatiation of actual implemention classes from client code
+   D. Code will more rebust, less coupled and easy to extend. 
+   E. Provide abstraction between implemention and client classes through interitance
+ 
 Structural Design Pattern:
  1. Adapter Design Pattern
  2. Composition Design Pattern
