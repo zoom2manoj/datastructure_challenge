@@ -82,6 +82,11 @@ Creational Design Pattern:
    C. Removes the instatiation of actual implemention classes from client code  
    D. Code will more rebust, less coupled and easy to extend.   
    E. Provide abstraction between implemention and client classes through interitance  
+   
+ 2. Abstract Factory Pattern:    
+   A. All pattern is same as factory pattern, few addon feature is added.   
+   B. Factory of Factories, it's can be easily extended to accommodate more.   
+   C. Avoice conditional logic of factory pattern.   
  
 Structural Design Pattern:
  1. Adapter Design Pattern
