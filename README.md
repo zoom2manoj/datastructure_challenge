@@ -87,7 +87,13 @@ Creational Design Pattern:
    A. All pattern is same as factory pattern, few addon feature is added.   
    B. Factory of Factories, it's can be easily extended to accommodate more.   
    C. Avoice conditional logic of factory pattern.   
- 
+   
+2. Builder Pattern:
+   A. Solve the issues with large number of parameters by providing a constructor with required parameters and then different setter methods to set the optional parameters. 
+   B. Object state will be inconsistent until unless all the attributes are set explicitly.
+
+
+
 Structural Design Pattern:
  1. Adapter Design Pattern
  2. Composition Design Pattern
