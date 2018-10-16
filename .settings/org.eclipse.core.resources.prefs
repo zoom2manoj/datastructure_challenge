@@ -1,10 +1,7 @@
-#Mon Oct 02 17:23:22 GMT+05:30 2017
 eclipse.preferences.version=1
 encoding//src/com/sorting/BubbleSorting.java=UTF-8
-encoding//src/com/sorting/HeapSorting.java=UTF-8
 encoding//src/com/sorting/InsertionSorting.java=UTF-8
 encoding//src/com/sorting/MergeSort.java=UTF-8
-encoding//src/com/sorting/QuickSorting.java=UTF-8
 encoding//src/com/sorting/SelectionSorting.java=UTF-8
 encoding//src/com/sorting/sortingcomplexitydetails.txt=UTF-8
 encoding//src/commondatastructurecomplexity.txt=UTF-8

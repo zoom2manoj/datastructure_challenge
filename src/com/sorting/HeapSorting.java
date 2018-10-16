@@ -2,75 +2,73 @@ package com.sorting;
 
 public class HeapSorting {
 
-	/*
-	 * 
-	 * Heapsort Ω(n log(n)) Θ(n log(n)) O(n log(n)) O(1)
-	 */
+	
+	
+	// Driver program 
+    public static void main(String args[]) 
+    { 
+        int arr[] = {12, 11, 13, 5, 6, 7}; 
+        int n = arr.length; 
+        printArray(arr); 
 
-	public static void main(String[] arg) {
-		int[] array = { 55, 2, 93, 1, 23, 10, 66, 12, 7, 54, 3 };
-		sort(array);
-	}
+        HeapSorting ob = new HeapSorting(); 
+        ob.sort(arr); 
+  
+        System.out.println("Sorted array is"); 
+        printArray(arr); 
 
-	private static void printArray(int[] a2) {
+	
+    }
+
+	private void sort(int[] arr) {
 		// TODO Auto-generated method stub
-		for (int i = 0; i < a2.length; i++) {
-			System.out.print(a2[i] + " ");
+		int n  = arr.length;
+		// create heap
+		for (int i = n/2-1; i >=0; i--) {
+			heapify(arr, n, i);
+		}
+		
+		
+		// one by one element extract from heap
+		for (int i = n-1; i>=0; i--) {
+			// move current root to end
+			int temp  = arr[0];
+			arr[0] = arr[i];
+			arr[i] = temp;
+			
+			// call max heapify on the reduced heap
+			heapify(arr, i, 0);
 		}
 	}
 
-	static int[] a;
-	static int n;
-	static int left;
-	static int right;
-	static int largest;
-
-	private static void sort(int[] array) {
+	private void heapify(int[] arr, int n, int i) {
 		// TODO Auto-generated method stub
-		a = array;
-
-		buildHeap(a);
-
-		for (int i = n; i >= 0; i--) {
-			exchange(0, i);
-			n = n - 1;
-			maxHeap(a, 0);
+		int largest  = i;
+		int l = 2*i+1;
+		int r = 2*i+2;
+		
+		if (l<n && arr[l]>arr[largest]) {
+			largest = l;
 		}
-
-		printArray(a);
+		
+		if (r<n && arr[r]>arr[largest]) {
+			largest = r;
+		}
+		
+		if (largest!=i) {
+			int temp  = arr[i];
+			arr[i] = arr[largest];
+			arr[largest] = temp;
+			heapify(arr, n, largest);
+		}
+		
 	}
 
-	private static void buildHeap(int[] a2) {
-		n = a2.length - 1;
-
-		for (int i = n / 2; i >= 0; i--) {
-			maxHeap(a, i);
-		}
-	}
-
-	private static void maxHeap(int[] a2, int i) {
-		left = 2 * i;
-		right = 2 * i + 1;
-
-		if (left <= n && a2[left] > a2[i]) {
-			largest = left;
-		} else {
-			largest = i;
-		}
-
-		if (right <= n && a2[right] > a2[largest]) {
-			largest = right;
-		}
-
-		if (largest != i) {
-			exchange(i, largest);
-			maxHeap(a2, largest);
-		}
-	}
-
-	private static void exchange(int i, int largest2) {
-		int temp = a[i];
-		a[i] = a[largest2];
-		a[largest2] = temp;
+	private static void printArray(int[] arr) {
+		// TODO Auto-generated method stub
+		int n = arr.length; 
+        for (int i=0; i<n; ++i) 
+            System.out.print(arr[i]+" "); 
+        System.out.println(); 
 	}
 }
