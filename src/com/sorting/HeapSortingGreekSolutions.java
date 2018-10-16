@@ -23,16 +23,20 @@ public class HeapSortingGreekSolutions {
 	private void sort(int[] arr) {
 		// TODO Auto-generated method stub
 		int n  = arr.length;
-		
+		// create heap
 		for (int i = n/2-1; i >=0; i--) {
 			heapify(arr, n, i);
 		}
 		
+		
+		// one by one element extract from heap
 		for (int i = n-1; i>=0; i--) {
+			// move current root to end
 			int temp  = arr[0];
 			arr[0] = arr[i];
 			arr[i] = temp;
 			
+			// call max heapify on the reduced heap
 			heapify(arr, i, 0);
 		}
 	}
