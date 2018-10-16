@@ -28,7 +28,7 @@ public class QuickSorting {
 		
 		int i = lower;
 		int j = high;
-		int pivot = input[lower-(high=lower)/2];
+		int pivot = input[lower+(high-lower)/2];
 		
 		while(i<=j){
 			
