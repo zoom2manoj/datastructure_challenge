@@ -18,10 +18,9 @@ Bubble Sort		Ω(n)		 Θ(n^2)			O(n^2)		  O(1)
 	private static void bubbleSorting(int[] input) {
 		// TODO Auto-generated method stub
 
-		for (int i = input.length; i >=0; i--) {
-			
-			for (int j = 0; j < input.length-1; j++) {
-				
+		for (int i = 0; i < input.length-1; i++) {
+			for (int j = 0; j < input.length-i-1; j++) {
+						
 				if (input[j]>input[j+1]) {
 					swapElement(j, j+1, input);
 				}
