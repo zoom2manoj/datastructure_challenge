@@ -64,6 +64,8 @@ Sorting Algorithms :
 4. Quick Sorting
 5. Merge Sorting
 6. Heap Sorting
+7. Bucket Sorting
+8. Count Sorting
 
 Design Patterns:
 
